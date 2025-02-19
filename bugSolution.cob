@@ -1,0 +1,7 @@
+01  WS-AMOUNT PIC 9(7)V99 VALUE ZEROES.
+
+* Somewhere in the code...
+ADD 12345.67 TO WS-AMOUNT.
+
+* ...later...
+DISPLAY WS-AMOUNT.
